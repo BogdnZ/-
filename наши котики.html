@@ -1,0 +1,109 @@
+<html>
+<head>
+    <title>Наши котики</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        .container {
+            max-width: 100%;
+            margin: 0;
+            padding: 0;
+            background: #fff;
+        }
+        h1 {
+            text-align: center;
+            color: #3498db;
+            margin-top: 0;
+        }
+        .cat {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+            padding: 10px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .cat img {
+            max-width: 150px;
+            height: auto;
+            margin-right: 20px;
+            border-radius: 10px;
+        }
+        .cat-info {
+            max-width: calc(100% - 170px);
+        }
+        .cat-info h2 {
+            margin: 0 0 10px 0;
+            text-align: center;
+            font-weight: bold;
+        }
+        .cat-info p {
+            margin: 0;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .cat.reverse {
+            flex-direction: row-reverse;
+        }
+        .cat.reverse .cat-info {
+            max-width: calc(100% - 170px);
+            margin-right: 20px;
+        }
+        .note {
+            text-align: center;
+            font-style: italic;
+            font-weight: bold;
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Наши котики</h1>
+
+        <div class="cat">
+            <img src="кот_арбуз.jpg" alt="Кот Арбуз">
+            <div class="cat-info">
+                <h2>Кот Арбуз</h2>
+                <p>Наш самый затратный питомец. Всё время проводит с арбузом. Арбузы необходимо покупать вне зависимости от сезона, что выходит очень дорого. Помощь принимается также и арбузами, если у вас есть такая возможность.</p>
+            </div>
+        </div>
+
+        <div class="cat reverse">
+            <img src="кот_апельсин.jpg" alt="Апельсиновый кот">
+            <div class="cat-info">
+                <h2>Апельсиновый кот</h2>
+                <p>Брат кота арбуза. Находится в гармонии с апельсинами и требует их постоянного обновления.</p>
+            </div>
+        </div>
+
+        <div class="cat">
+            <img src="невидимый_кот.jpg" alt="Невидимый кот">
+            <div class="cat-info">
+                <h2>Невидимый кот</h2>
+                <p>Этого кота не видно, что крайне удобно при съёме квартиры без животных. Наш долгожитель, так как его просто не видят и не забирают.</p>
+            </div>
+        </div>
+
+        <div class="cat reverse">
+            <img src="кот_турист.jpg" alt="Кот Турист">
+            <div class="cat-info">
+                <h2>Кот Турист</h2>
+                <p>Это ещё один наш самый затратный подопечный. Ежегодно требует отпуска в новую страну. Сбегает от сопровождающих на отпуске и возвращается без них. После этого сопровождающие не возвращаются, скорее всего, оставаясь на отдыхе.</p>
+            </div>
+        </div>
+
+        <div class="note">
+            Это лишь часть наших милых котиков. Если вы хотите увидеть их всех, приходите к нам лично. Адрес вы сможете найти в разделе Контакты.
+        </div>
+    </div>
+</body>
+</html>
